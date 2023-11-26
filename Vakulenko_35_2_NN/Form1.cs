@@ -17,6 +17,7 @@ namespace Vakulenko_35_2_NN
         public Form1()
         {
             InitializeComponent();
+           
         }
 
         void ChangeColor(Button button, int index)
