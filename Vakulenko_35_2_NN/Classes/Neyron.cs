@@ -66,13 +66,11 @@ namespace Vakulenko_35_2_NN.Classes
 
         private double LeakyRelu(double arg)
         {
-            //Прописать функцию активации(фото есть)
             return arg > 0 ? arg : arg * 0.01;
         }
 
         private double LeakyRelu_Derivator(double arg)
         {
-            //Дописать дома(функция активации нейрона пишем в инете и ищем для неё производную)
             //+ разобрать про SoftMax() (она не относится к этой фукнкции просто домашка)
             return arg > 0 ? 1 : 0.01;
         }
