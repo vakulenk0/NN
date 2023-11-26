@@ -1,0 +1,10 @@
+C:\Users\Dmitry\source\repos\Vakulenko_35_2_NN\Vakulenko_35_2_NN\obj\Debug\Vakulenko_35_2_NN.csproj.AssemblyReference.cache
+C:\Users\Dmitry\source\repos\Vakulenko_35_2_NN\Vakulenko_35_2_NN\obj\Debug\Vakulenko_35_2_NN.Form1.resources
+C:\Users\Dmitry\source\repos\Vakulenko_35_2_NN\Vakulenko_35_2_NN\obj\Debug\Vakulenko_35_2_NN.Properties.Resources.resources
+C:\Users\Dmitry\source\repos\Vakulenko_35_2_NN\Vakulenko_35_2_NN\obj\Debug\Vakulenko_35_2_NN.csproj.GenerateResource.cache
+C:\Users\Dmitry\source\repos\Vakulenko_35_2_NN\Vakulenko_35_2_NN\obj\Debug\Vakulenko_35_2_NN.csproj.CoreCompileInputs.cache
+C:\Users\Dmitry\source\repos\Vakulenko_35_2_NN\Vakulenko_35_2_NN\bin\Debug\Vakulenko_35_2_NN.exe.config
+C:\Users\Dmitry\source\repos\Vakulenko_35_2_NN\Vakulenko_35_2_NN\bin\Debug\Vakulenko_35_2_NN.exe
+C:\Users\Dmitry\source\repos\Vakulenko_35_2_NN\Vakulenko_35_2_NN\bin\Debug\Vakulenko_35_2_NN.pdb
+C:\Users\Dmitry\source\repos\Vakulenko_35_2_NN\Vakulenko_35_2_NN\obj\Debug\Vakulenko_35_2_NN.exe
+C:\Users\Dmitry\source\repos\Vakulenko_35_2_NN\Vakulenko_35_2_NN\obj\Debug\Vakulenko_35_2_NN.pdb
