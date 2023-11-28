@@ -8,16 +8,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Vakulenko_35_2_NN.Classes;
+using static Vakulenko_35_2_NN.Classes.Network;
 
 namespace Vakulenko_35_2_NN
 {
     public partial class Form1 : Form
     {
-        int[] InputData = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+        double[] InputData = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+        public double[] NetOutput {  
+            //get;
+            set => labelOutput.Text = value.ToList().IndexOf(value.Max()).ToString(); 
+        }
+        Network net;
         public Form1()
         {
             InitializeComponent();
-           
+            //net = new Network(NetworkMode.Recognize);
         }
 
         void ChangeColor(Button button, int index)
@@ -74,6 +81,22 @@ namespace Vakulenko_35_2_NN
             }
             data += "\n";
             File.AppendAllText(path, data);
+        }
+
+        private void recognizeBtn_Click(object sender, EventArgs e)
+        {
+            net.ForwardPass(net, InputData);
+            NetOutput = net.Fact;
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void trainBtn_Click(object sender, EventArgs e)
+        {
+            net.Train(net);
         }
     }
 }

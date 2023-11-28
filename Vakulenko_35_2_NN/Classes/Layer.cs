@@ -55,6 +55,7 @@ namespace Vakulenko_35_2_NN.Classes {
             else
             {
                 Directory.CreateDirectory(pathDirWeights);
+                File.Create(pathFileWeights).Close();
                 Weights = WeightsInitialize(MemmoryMode.INIT, pathFileWeights);
             }
 
@@ -116,7 +117,8 @@ namespace Vakulenko_35_2_NN.Classes {
 
                         tmpStrWeights[i] = tmpStr;
                     }
-                    File.WriteAllLines(path, tmpStrWeights); //Создаёт новый файл записывает в него 
+                    File.WriteAllLines(path, tmpStrWeights); //Создаёт новый файл записывает в него
+                    
                     break;
                 default:
                     break;

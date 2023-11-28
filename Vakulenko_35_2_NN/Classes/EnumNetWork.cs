@@ -12,6 +12,6 @@ namespace Vakulenko_35_2_NN.Classes
 
     enum NetworkMode //режим работы сети
     {
-        Train, Test, Demo
+        Train, Test, Recognize
     }
 }
